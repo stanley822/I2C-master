@@ -10,9 +10,9 @@ This project implements a non-blocking I2C Master controller written in Verilog.
 
 # Folder Structure
 i2c_master_fsm/
-├── src/ # Verilog source files (i2c_master.v)
-├── tb/ # Testbench files
-├── sim/ # Simulation outputs (e.g., .vcd, .fst)
-├── doc/ # Block diagrams, timing diagrams
-├── run.tcl # Script to compile and simulate
-├── README.md
+- src/ # Verilog source files (i2c_master.v)
+- tb/ # Testbench files
+- sim/ # Simulation outputs (e.g., .vcd, .fst)
+- doc/ # Block diagrams, timing diagrams
+- run.tcl # Script to compile and simulate
+- README.md
