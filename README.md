@@ -1,5 +1,6 @@
 # I2C-master
-This project implements a non-blocking I2C Master controller written in Verilog. It supports multi-byte write operations with proper START, STOP, and ACK handling. The core is controlled via a finite state machine (FSM) and designed for FPGA deployment and simulation environments.
+This project implements a I2C Master controller written in Verilog. It supports multi-byte write operations with proper START, STOP, and ACK handling. The core is controlled via a finite state machine (FSM) and designed for FPGA deployment and simulation environments.
+The module is fully valified and simulation with M24LC04B EEPROM 
 
 # Features
 - Fully synchronous FSM-based I2C master
